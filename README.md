@@ -4,16 +4,13 @@
 <div align="center">I'm <b>Xuban</b>, an engineering student </div>  
   
 
-- 📚 Currently studying Industrial engineering in France  
-  
-
-- ✈️ Would love to attend Cranfield postgraduate university  
-  
+- 📚 Currently studying Computational and Software Techniques in Cranfield University
+    
 
 - 🏆 Im hosting my university and personal projects here.   
   
 
-- ❓ Ask me about anything   
+- ❓ Ask me about anything - Contact me on LinkedIn !   
   
 
 <br/>  
