@@ -1,16 +1,17 @@
 <div align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Flag_of_the_Basque_Country.svg/300px-Flag_of_the_Basque_Country.svg.png" align="center" style="width: 5%" />
 </div>  
-<div align="center">I'm <b>Xuban</b>, an engineering student </div>  
+<div align="center">I'm <b>Xuban</b>, an engineer </div>  
   
 
-- 📚 Currently studying Computational and Software Techniques in Cranfield University
+- 📚 My main focused currentlt is learning
     
 
-- 🏆 Im hosting my university and personal projects here.   
+- 🏆 I'm creating a SAAS to destroy online media addiction. You can join this noble battle here: boringtube.com
   
 
-- ❓ Ask me about anything - Contact me on LinkedIn !   
+- ❓ Ask me about anything - Contact me on Twitter: https://twitter.com/EHxuban11
+
   
 
 <br/>  
