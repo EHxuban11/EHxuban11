@@ -7,55 +7,17 @@
 - 📚 My main focused currentlt is learning
     
 
-- 🏆 I'm creating a SAAS to destroy online media addiction. You can join this noble battle here: boringtube.com
+- 🏆 I'm creating a SAAS to destroy online media addiction. You can join this noble battle here: https://boringtube.com
   
 
-- ❓ Ask me about anything - Contact me on Twitter: https://twitter.com/EHxuban11
+- ❓ Ask me about anything 
 
   
 
 <br/>  
 
 
-## My Skill Set  
-<table><tr><td valign="top" width="33%">
 
-
-
-### WebDev  
-<div align="center">  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="50" />  
-</div>
-
-</td><td valign="top" width="33%">
-
-
-
-### Programming  
-<div align="center">  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/csharp-original.svg" alt="C#" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/arduino.png" alt="Arduino" height="50" />  
-</div>
-
-</td><td valign="top" width="33%">
-
-
-
-### Other  
-<div align="center">  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/aftereffects.png" alt="After Effects" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/photoshop-plain.svg" alt="Photoshop" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/adobepremierepro.png" alt="Premiere Pro" height="50" />  
-</div>
-
-</td></tr></table>  
-
-<br/>  
 
 
 ## Connect with me  
@@ -63,8 +25,8 @@
 <a href="https://github.com/XubanCeccon" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
-<a href="https://linkedin.com/in/xuban-ceccon" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+<a href="https://twitter.com/EHxuban11" target="_blank">
+<img src=https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white alt=x style="margin-bottom: 5px;" />
 </a>
 <a href="https://www.youtube.com/channel/UCr2HaKMYr_gut7nkHetNnyg" target="_blank">
 <img src=https://img.shields.io/badge/youtube-%23EE4831.svg?&style=for-the-badge&logo=youtube&logoColor=white alt=youtube style="margin-bottom: 5px;" />
