@@ -7,7 +7,7 @@
 - 📚 My main focused currentlt is learning
     
 
-- 🏆 I'm creating a SAAS to destroy online media addiction. You can join this noble battle here: https://boringtube.com
+- 🏆 I'm creating products to destroy online media addiction. 
   
 
 - ❓ Ask me about anything 
