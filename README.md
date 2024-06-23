@@ -7,11 +7,8 @@
 - 📚 My main focused currentlt is learning
     
 
-- 🏆 I'm creating products to destroy online media addiction. 
+- 🏆 In my free time I'm creating products to destroy online media addiction. 
   
-
-- ❓ Ask me about anything 
-
   
 
 <br/>  
@@ -31,30 +28,5 @@
 <img src=https://img.shields.io/badge/youtube-%23EE4831.svg?&style=for-the-badge&logo=youtube&logoColor=white alt=youtube style="margin-bottom: 5px;" />
 </a>  
 </div>  
-  
 
-<br/>  
-
-
-## Github Stats  
-<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=EHxuban11&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
-
-<br/>  
-
-
-<br/>  
-
-  
-
-<br/>  
-
-<div align="center">
-<img src="https://komarev.com/ghpvc/?username=EHxuban11&&style=flat-square" align="center" />
-</div>  
-  
-
-<br/>  
-
-
-<br />
 
