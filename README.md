@@ -4,12 +4,8 @@
 <div align="center">I'm <b>Xuban</b>, an engineer </div>  
   
 
-- 📚 My main focused currentlt is learning
-    
-
-- 🏆 In my free time I'm creating products to destroy online media addiction. 
-  
-  
+- 📚 My main focused currently is learning
+      
 
 <br/>  
 
