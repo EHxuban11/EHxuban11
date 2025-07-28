@@ -68,25 +68,25 @@
           <mxGeometry x="480" y="170" width="20" height="570" as="geometry" />
         </mxCell>
         <mxCell id="6XSviYjn-b1P8yI_QofI-19" value="System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="530" y="1010" width="100" height="570" as="geometry" />
+          <mxGeometry x="530" y="1010" width="100" height="320" as="geometry" />
         </mxCell>
         <mxCell id="6XSviYjn-b1P8yI_QofI-21" value="Bootloader Deployment&lt;div&gt;Operator&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1010" width="20" height="570" as="geometry" />
+          <mxGeometry x="80" y="1010" width="20" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="6XSviYjn-b1P8yI_QofI-23" value="UC0 - Bootloader Provisioning&lt;div&gt;Scenario 2: Without Knowing the SG IC ID&amp;nbsp;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="6XSviYjn-b1P8yI_QofI-23" value="UC0 - Bootloader Provisioning&lt;div&gt;Scenario 1: Without Knowing the SG IC ID&amp;nbsp;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="920" width="180" height="16" as="geometry" />
         </mxCell>
         <mxCell id="6XSviYjn-b1P8yI_QofI-24" value="CyberRock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="250" y="1010" width="20" height="570" as="geometry" />
+          <mxGeometry x="250" y="1010" width="20" height="320" as="geometry" />
         </mxCell>
         <mxCell id="6XSviYjn-b1P8yI_QofI-26" value="Microcontroller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="390" y="1010" width="20" height="570" as="geometry" />
+          <mxGeometry x="390" y="1010" width="20" height="320" as="geometry" />
         </mxCell>
         <mxCell id="6XSviYjn-b1P8yI_QofI-29" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="1100" width="650" height="580" as="geometry" />
+          <mxGeometry x="10" y="1100" width="650" height="320" as="geometry" />
         </mxCell>
         <mxCell id="6XSviYjn-b1P8yI_QofI-34" value="SandGrain IC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="480" y="1010" width="20" height="570" as="geometry" />
+          <mxGeometry x="480" y="1010" width="20" height="320" as="geometry" />
         </mxCell>
         <mxCell id="6XSviYjn-b1P8yI_QofI-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="6XSviYjn-b1P8yI_QofI-34">
           <mxGeometry x="5" y="140" width="10" height="70" as="geometry" />
@@ -102,6 +102,30 @@
             <mxPoint x="89.32352941176487" y="1220" as="targetPoint" />
             <mxPoint x="491" y="1220" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-38" value="Same as UC0 Scenario 0 ..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-39" value="System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="530" y="1610" width="100" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-40" value="Bootloader Deployment&lt;div&gt;Operator&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1610" width="20" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-41" value="UC0 - Bootloader Provisioning&lt;div&gt;Scenario 2: new or unsupported initial bootloader&amp;nbsp;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1520" width="180" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-42" value="CyberRock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1610" width="20" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-43" value="Microcontroller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1610" width="20" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-44" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1700" width="650" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-45" value="SandGrain IC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1610" width="20" height="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
