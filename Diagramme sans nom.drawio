@@ -608,7 +608,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="UC4 -  Normal Boot" id="UZKuv8MOsiITZ2OmBZr7">
-    <mxGraphModel dx="2053" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2316" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-0" />
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-1" parent="nzWaNh4o__O3Egn8Zrkd-0" />
@@ -695,7 +695,7 @@
           <mxGeometry x="470" y="1840" width="20" height="480" as="geometry" />
         </mxCell>
         <mxCell id="sySzaQb2RRKal5KwS9H1-52" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
-          <mxGeometry x="85" y="300" width="10" height="450" as="geometry" />
+          <mxGeometry x="85" y="300" width="10" height="460" as="geometry" />
         </mxCell>
         <mxCell id="QdswCaEO09Eo9LcW1iH_-10" value="Normal boot Initialization" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
           <mxGeometry relative="1" as="geometry">
@@ -714,7 +714,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QdswCaEO09Eo9LcW1iH_-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
-          <mxGeometry x="575" y="400" width="10" height="350" as="geometry" />
+          <mxGeometry x="575" y="400" width="10" height="360" as="geometry" />
         </mxCell>
         <mxCell id="QdswCaEO09Eo9LcW1iH_-17" value="Get chunk of memory of area of interest" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
           <mxGeometry x="0.0196" y="-1" width="80" relative="1" as="geometry">
@@ -779,7 +779,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QdswCaEO09Eo9LcW1iH_-33" value="Definir el proceso de CyberRock para obtener el mismo valor que el que se obtiene en el chip&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
-          <mxGeometry x="760" y="790" width="290" height="82" as="geometry" />
+          <mxGeometry x="720" y="720" width="290" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
