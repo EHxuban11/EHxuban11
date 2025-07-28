@@ -608,7 +608,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="UC4 -  Normal Boot" id="UZKuv8MOsiITZ2OmBZr7">
-    <mxGraphModel dx="2016" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1869" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-0" />
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-1" parent="nzWaNh4o__O3Egn8Zrkd-0" />
@@ -734,7 +734,7 @@
         <mxCell id="sySzaQb2RRKal5KwS9H1-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sySzaQb2RRKal5KwS9H1-19">
           <mxGeometry x="5" y="120" width="10" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="sySzaQb2RRKal5KwS9H1-21" value="UC4 - Normal Boot&lt;div&gt;Scenario 2 -&amp;nbsp; Runtime checks&lt;/div&gt;" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
+        <mxCell id="sySzaQb2RRKal5KwS9H1-21" value="UC4 - Normal Boot&lt;div&gt;Scenario 2 -&amp;nbsp; Runtime Checks&lt;/div&gt;" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
           <mxGeometry x="20" y="1500" width="180" height="16" as="geometry" />
         </mxCell>
         <mxCell id="sySzaQb2RRKal5KwS9H1-22" value="CyberRock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
@@ -800,6 +800,12 @@
         </mxCell>
         <mxCell id="sySzaQb2RRKal5KwS9H1-54" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(18, 18, 18); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Boot&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
           <mxGeometry x="75" y="270" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="sySzaQb2RRKal5KwS9H1-58" value="chip ID, mc model" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=12;startSize=8;endSize=8;" edge="1" parent="nzWaNh4o__O3Egn8Zrkd-1" source="sySzaQb2RRKal5KwS9H1-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="320" as="sourcePoint" />
+            <mxPoint x="260" y="320" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
