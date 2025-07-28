@@ -619,16 +619,16 @@
           <mxGeometry x="30" y="50" width="180" height="16" as="geometry" />
         </mxCell>
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-7" value="CyberRock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="nzWaNh4o__O3Egn8Zrkd-1" vertex="1">
-          <mxGeometry x="170" y="180" width="20" height="530" as="geometry" />
+          <mxGeometry x="170" y="180" width="20" height="470" as="geometry" />
         </mxCell>
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-9" value="Microcontroller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="nzWaNh4o__O3Egn8Zrkd-1" vertex="1">
-          <mxGeometry x="80" y="180" width="20" height="530" as="geometry" />
+          <mxGeometry x="80" y="180" width="20" height="470" as="geometry" />
         </mxCell>
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-11" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="nzWaNh4o__O3Egn8Zrkd-1" vertex="1">
-          <mxGeometry x="10" y="260" width="650" height="430" as="geometry" />
+          <mxGeometry x="10" y="230" width="650" height="430" as="geometry" />
         </mxCell>
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-14" value="SandGrain IC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="nzWaNh4o__O3Egn8Zrkd-1" vertex="1">
-          <mxGeometry x="270" y="190" width="20" height="480" as="geometry" />
+          <mxGeometry x="270" y="180" width="20" height="470" as="geometry" />
         </mxCell>
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-15" value="Same as UC0 Scenario 0 ..." style="rounded=0;whiteSpace=wrap;html=1;" parent="nzWaNh4o__O3Egn8Zrkd-1" vertex="1">
           <mxGeometry x="-671" y="720" width="515" height="60" as="geometry" />
