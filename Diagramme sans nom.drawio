@@ -743,7 +743,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QdswCaEO09Eo9LcW1iH_-20" value="El Systema representa nuestra solución, y parece que tiene dos partes. La parte en SandGrain y la parte que corre en el chip. O al menos así lo estoy reflejando en los diagramas. Y esto es un problema, porque es lioso para una persona que no tenga ese punto de vista. Convendría generar dos cajas System Cloud y System Embedded ?? Preguntar a Ane e Igor" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
-          <mxGeometry x="760" y="66" width="210" height="224" as="geometry" />
+          <mxGeometry x="800" y="66" width="210" height="224" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
