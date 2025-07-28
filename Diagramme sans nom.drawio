@@ -695,7 +695,7 @@
           <mxGeometry x="470" y="1840" width="20" height="480" as="geometry" />
         </mxCell>
         <mxCell id="sySzaQb2RRKal5KwS9H1-52" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
-          <mxGeometry x="85" y="300" width="10" height="340" as="geometry" />
+          <mxGeometry x="85" y="300" width="10" height="450" as="geometry" />
         </mxCell>
         <mxCell id="QdswCaEO09Eo9LcW1iH_-10" value="Normal boot Initialization" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
           <mxGeometry relative="1" as="geometry">
@@ -714,7 +714,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QdswCaEO09Eo9LcW1iH_-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
-          <mxGeometry x="575" y="400" width="10" height="240" as="geometry" />
+          <mxGeometry x="575" y="400" width="10" height="350" as="geometry" />
         </mxCell>
         <mxCell id="QdswCaEO09Eo9LcW1iH_-17" value="Get chunk of memory of area of interest" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
           <mxGeometry x="0.0196" y="-1" width="80" relative="1" as="geometry">
@@ -726,10 +726,10 @@
         <mxCell id="QdswCaEO09Eo9LcW1iH_-20" value="El Sistema representa nuestra solución, y parece que tiene dos partes. La parte en SandGrain y la parte que corre en el chip. O al menos así lo estoy reflejando en los diagramas. Y esto es un problema, porque es lioso para una persona que no tenga ese punto de vista. Convendría generar dos cajas System Cloud y System Embedded ?? Preguntar a Ane e Igor" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
           <mxGeometry x="800" y="66" width="290" height="144" as="geometry" />
         </mxCell>
-        <mxCell id="QdswCaEO09Eo9LcW1iH_-23" value="Return chunk of memory of area of interest" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="nzWaNh4o__O3Egn8Zrkd-1" source="sySzaQb2RRKal5KwS9H1-52" target="QdswCaEO09Eo9LcW1iH_-16">
+        <mxCell id="QdswCaEO09Eo9LcW1iH_-23" value="Return chunk of memory of area of interest" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="469.41" as="sourcePoint" />
-            <mxPoint x="570" y="470" as="targetPoint" />
+            <mxPoint x="90.00352941176487" y="470" as="sourcePoint" />
+            <mxPoint x="575.6799999999995" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QdswCaEO09Eo9LcW1iH_-24" value="Digest it" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
