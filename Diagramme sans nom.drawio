@@ -706,7 +706,7 @@
         <mxCell id="QdswCaEO09Eo9LcW1iH_-4" value="HMAC of the hash" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
           <mxGeometry x="-0.0556" width="80" relative="1" as="geometry">
             <mxPoint x="275" y="690" as="sourcePoint" />
-            <mxPoint x="95" y="690" as="targetPoint" />
+            <mxPoint x="90" y="690" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
