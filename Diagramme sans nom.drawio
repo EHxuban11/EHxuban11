@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7" pages="5">
   <diagram name="UC0 - Bootloader Provisioning" id="je93KmNB5l3ZLCml3RUP">
-    <mxGraphModel dx="2053" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2505" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -608,7 +608,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="UC4 -  Normal Boot" id="UZKuv8MOsiITZ2OmBZr7">
-    <mxGraphModel dx="2316" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1695" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-0" />
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-1" parent="nzWaNh4o__O3Egn8Zrkd-0" />
@@ -616,16 +616,16 @@
           <mxGeometry x="530" y="175" width="100" height="995" as="geometry" />
         </mxCell>
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-6" value="UC4 - Normal Boot&lt;div&gt;Scenario 0 - Measured Boot&amp;nbsp;&lt;/div&gt;" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="nzWaNh4o__O3Egn8Zrkd-1" vertex="1">
-          <mxGeometry x="30" y="50" width="180" height="16" as="geometry" />
+          <mxGeometry x="30" y="100" width="180" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="nzWaNh4o__O3Egn8Zrkd-7" value="CyberRock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="nzWaNh4o__O3Egn8Zrkd-1" vertex="1">
+        <mxCell id="nzWaNh4o__O3Egn8Zrkd-7" value="Device Management Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="nzWaNh4o__O3Egn8Zrkd-1" vertex="1">
           <mxGeometry x="404" y="180" width="20" height="990" as="geometry" />
         </mxCell>
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-9" value="Microcontroller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="nzWaNh4o__O3Egn8Zrkd-1" vertex="1">
           <mxGeometry x="80" y="180" width="20" height="990" as="geometry" />
         </mxCell>
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-11" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="nzWaNh4o__O3Egn8Zrkd-1" vertex="1">
-          <mxGeometry x="10" y="230" width="740" height="990" as="geometry" />
+          <mxGeometry x="10" y="230" width="950" height="990" as="geometry" />
         </mxCell>
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-14" value="SandGrain IC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="nzWaNh4o__O3Egn8Zrkd-1" vertex="1">
           <mxGeometry x="270" y="180" width="20" height="990" as="geometry" />
@@ -724,7 +724,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QdswCaEO09Eo9LcW1iH_-20" value="El Sistema representa nuestra solución, y parece que tiene dos partes. La parte en SandGrain y la parte que corre en el chip. O al menos así lo estoy reflejando en los diagramas. Y esto es un problema, porque es lioso para una persona que no tenga ese punto de vista. Convendría generar dos cajas System Cloud y System Embedded ?? Preguntar a Ane e Igor" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
-          <mxGeometry x="800" y="66" width="290" height="144" as="geometry" />
+          <mxGeometry x="830" y="66" width="290" height="144" as="geometry" />
         </mxCell>
         <mxCell id="QdswCaEO09Eo9LcW1iH_-23" value="Return chunk of memory of area of interest" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
           <mxGeometry relative="1" as="geometry">
@@ -779,10 +779,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QdswCaEO09Eo9LcW1iH_-33" value="Definir el proceso de CyberRock para obtener el mismo valor que el que se obtiene en el chip&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
-          <mxGeometry x="660" y="910" width="290" height="82" as="geometry" />
+          <mxGeometry x="850" y="850" width="290" height="82" as="geometry" />
         </mxCell>
         <mxCell id="QdswCaEO09Eo9LcW1iH_-38" value="Send Measured boot" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="nzWaNh4o__O3Egn8Zrkd-1" target="sySzaQb2RRKal5KwS9H1-52">
-          <mxGeometry x="0.0196" y="-1" width="80" relative="1" as="geometry">
+          <mxGeometry x="0.0226" y="-1" width="80" relative="1" as="geometry">
             <mxPoint x="570" y="740" as="sourcePoint" />
             <mxPoint x="105" y="740" as="targetPoint" />
             <mxPoint as="offset" />
@@ -803,6 +803,12 @@
             <mxPoint x="95" y="869.9973684210524" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QdswCaEO09Eo9LcW1iH_-42" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
+          <mxGeometry x="409" y="820" width="10" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bfDz6-IAJ0H77yNO6sKa-0" value="CyberRock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
+          <mxGeometry x="480" y="180" width="20" height="990" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
