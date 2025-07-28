@@ -608,12 +608,12 @@
     </mxGraphModel>
   </diagram>
   <diagram name="UC4 -  Normal Boot" id="UZKuv8MOsiITZ2OmBZr7">
-    <mxGraphModel dx="2505" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2053" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-0" />
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-1" parent="nzWaNh4o__O3Egn8Zrkd-0" />
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-2" value="System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="nzWaNh4o__O3Egn8Zrkd-1" vertex="1">
-          <mxGeometry x="530" y="180" width="100" height="775" as="geometry" />
+          <mxGeometry x="530" y="175" width="100" height="775" as="geometry" />
         </mxCell>
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-6" value="UC4 - Normal Boot&lt;div&gt;Scenario 0 - Measured Boot&amp;nbsp;&lt;/div&gt;" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="nzWaNh4o__O3Egn8Zrkd-1" vertex="1">
           <mxGeometry x="30" y="50" width="180" height="16" as="geometry" />
