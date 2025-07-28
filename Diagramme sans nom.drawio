@@ -631,7 +631,7 @@
           <mxGeometry x="270" y="180" width="20" height="770" as="geometry" />
         </mxCell>
         <mxCell id="QdswCaEO09Eo9LcW1iH_-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nzWaNh4o__O3Egn8Zrkd-14">
-          <mxGeometry x="5" y="440" width="10" height="61" as="geometry" />
+          <mxGeometry x="5" y="460" width="10" height="61" as="geometry" />
         </mxCell>
         <mxCell id="nzWaNh4o__O3Egn8Zrkd-15" value="Same as UC0 Scenario 0 ..." style="rounded=0;whiteSpace=wrap;html=1;" parent="nzWaNh4o__O3Egn8Zrkd-1" vertex="1">
           <mxGeometry x="-671" y="720" width="515" height="60" as="geometry" />
@@ -695,18 +695,18 @@
           <mxGeometry x="470" y="1840" width="20" height="480" as="geometry" />
         </mxCell>
         <mxCell id="sySzaQb2RRKal5KwS9H1-52" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
-          <mxGeometry x="85" y="300" width="10" height="330" as="geometry" />
+          <mxGeometry x="85" y="300" width="10" height="340" as="geometry" />
         </mxCell>
         <mxCell id="QdswCaEO09Eo9LcW1iH_-3" value="Submit hash" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="94.99999999999977" y="619.9999999999999" as="sourcePoint" />
-            <mxPoint x="279.5" y="619.9999999999999" as="targetPoint" />
+            <mxPoint x="94.99999999999977" y="639.9999999999999" as="sourcePoint" />
+            <mxPoint x="279.5" y="639.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QdswCaEO09Eo9LcW1iH_-4" value="HMAC of the hash" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="nzWaNh4o__O3Egn8Zrkd-1">
           <mxGeometry x="-0.0556" width="80" relative="1" as="geometry">
-            <mxPoint x="275" y="651" as="sourcePoint" />
-            <mxPoint x="95" y="651" as="targetPoint" />
+            <mxPoint x="275" y="690" as="sourcePoint" />
+            <mxPoint x="95" y="690" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
