@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
-  <diagram name="Página-1" id="je93KmNB5l3ZLCml3RUP">
-    <mxGraphModel dx="5580" dy="2650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7" pages="2">
+  <diagram name="UC0 - Bootloader Provisioning" id="je93KmNB5l3ZLCml3RUP">
+    <mxGraphModel dx="3996" dy="1767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,15 +110,6 @@
         <mxCell id="6XSviYjn-b1P8yI_QofI-45" value="SandGrain IC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="480" y="1610" width="20" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="6XSviYjn-b1P8yI_QofI-58" value="chip ID, mc model" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-300" y="2000" as="sourcePoint" />
-            <mxPoint x="-145" y="2000" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6XSviYjn-b1P8yI_QofI-59" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-110" y="1980" width="10" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="6XSviYjn-b1P8yI_QofI-61" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="1" source="6XSviYjn-b1P8yI_QofI-50" target="6XSviYjn-b1P8yI_QofI-42">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="110" y="1769.41" as="sourcePoint" />
@@ -155,13 +146,6 @@
           <mxGeometry x="0.3226" y="-6" width="80" relative="1" as="geometry">
             <mxPoint x="259.5" y="2000" as="sourcePoint" />
             <mxPoint x="90" y="2000" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6XSviYjn-b1P8yI_QofI-72" value="Not Avaiable" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
-          <mxGeometry x="0.3226" y="-6" width="80" relative="1" as="geometry">
-            <mxPoint x="-170.5" y="2050" as="sourcePoint" />
-            <mxPoint x="-340" y="2050" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -315,6 +299,342 @@
         </mxCell>
         <mxCell id="6XSviYjn-b1P8yI_QofI-143" value="Same as UC0 Scenario 0 ..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="3640" width="570" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Kebt866ogUQnyGAC-GMH-1" value="chip ID, mc model" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-270" y="370" as="sourcePoint" />
+            <mxPoint x="-115" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kebt866ogUQnyGAC-GMH-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-80" y="350" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Kebt866ogUQnyGAC-GMH-3" value="Not Avaiable" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry x="0.3226" y="-6" width="80" relative="1" as="geometry">
+            <mxPoint x="-140.5" y="420" as="sourcePoint" />
+            <mxPoint x="-310" y="420" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copie de UC1 - Image Signing" id="9yPPeVLyRRV9we2ffksN">
+    <mxGraphModel dx="2253" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-0" />
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-1" parent="zhGtLRuy-EGO6Gjfj_fP-0" />
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-2" value="System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="530" y="170" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-2">
+          <mxGeometry x="45" y="160" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-4" value="Bootloader Deployment&lt;div&gt;Operator&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="80" y="170" width="20" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-4">
+          <mxGeometry x="5" y="120" width="10" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-6" value="UC0 - Bootloader Provisioning&lt;div&gt;Scenario 0: Knowing the SandGrain SG IC ID&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="30" y="50" width="180" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-7" value="CyberRock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="250" y="170" width="20" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-7">
+          <mxGeometry x="5" y="120" width="10" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-9" value="Microcontroller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="390" y="170" width="20" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-9">
+          <mxGeometry x="5" y="460" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-11" value="Bootloader to flash&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1" target="zhGtLRuy-EGO6Gjfj_fP-8">
+          <mxGeometry x="0.3226" y="-6" width="80" relative="1" as="geometry">
+            <mxPoint x="575" y="426" as="sourcePoint" />
+            <mxPoint x="290.09" y="426" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-12" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="10" y="260" width="650" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-13" value="chip ID, mc model" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=12;startSize=8;endSize=8;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1" target="zhGtLRuy-EGO6Gjfj_fP-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="295" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-14" value="request" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1" target="zhGtLRuy-EGO6Gjfj_fP-2">
+          <mxGeometry x="-0.3359" width="80" relative="1" as="geometry">
+            <mxPoint x="270" y="330" as="sourcePoint" />
+            <mxPoint x="360" y="330" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-15" value="SandGrain IC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="480" y="170" width="20" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-16" value="System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="530" y="1010" width="100" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-17" value="Bootloader Deployment&lt;div&gt;Operator&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="80" y="1010" width="20" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-18" value="UC0 - Bootloader Provisioning&lt;div&gt;Scenario 1: Without Knowing the SG IC ID&amp;nbsp;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="30" y="920" width="180" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-19" value="CyberRock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="250" y="1010" width="20" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-20" value="Microcontroller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="390" y="1010" width="20" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-21" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="10" y="1100" width="650" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-22" value="SandGrain IC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="480" y="1010" width="20" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-22">
+          <mxGeometry x="5" y="140" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-24" value="Same as UC0 Scenario 0 ..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="75" y="1300" width="515" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-25" value="System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="530" y="1610" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-26" value="Bootloader Deployment&lt;div&gt;Operator&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="80" y="1610" width="20" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-27" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-26">
+          <mxGeometry x="5" y="130" width="10" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-28" value="UC0 - Bootloader Provisioning&lt;div&gt;Scenario 2: new or unsupported initial bootloader&amp;nbsp;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="60" y="1520" width="180" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-29" value="CyberRock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="250" y="1610" width="20" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-30" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-29">
+          <mxGeometry x="5" y="144" width="10" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-31" value="Microcontroller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="390" y="1610" width="20" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-32" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="10" y="1700" width="650" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-33" value="SandGrain IC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="480" y="1610" width="20" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-34" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1" source="zhGtLRuy-EGO6Gjfj_fP-27" target="zhGtLRuy-EGO6Gjfj_fP-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="1769.41" as="sourcePoint" />
+            <mxPoint x="265" y="1769.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-35" value="mc model, OS model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="zhGtLRuy-EGO6Gjfj_fP-34">
+          <mxGeometry x="-0.0846" y="-2" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="575" y="1830" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-37" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1" target="zhGtLRuy-EGO6Gjfj_fP-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="266" y="1830" as="sourcePoint" />
+            <mxPoint x="431" y="1830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-38" value="mc model and OS model check" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="zhGtLRuy-EGO6Gjfj_fP-37">
+          <mxGeometry x="-0.0846" y="-2" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-39" value="Not Avaiable" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1" target="zhGtLRuy-EGO6Gjfj_fP-29">
+          <mxGeometry x="0.3226" y="-6" width="80" relative="1" as="geometry">
+            <mxPoint x="580" y="1910" as="sourcePoint" />
+            <mxPoint x="400" y="1910" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-40" value="Not Avaiable" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="0.3226" y="-6" width="80" relative="1" as="geometry">
+            <mxPoint x="259.5" y="2000" as="sourcePoint" />
+            <mxPoint x="90" y="2000" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-41" value="System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="530" y="2400" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-42" value="Bootloader Deployment&lt;div&gt;Operator&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="80" y="2400" width="20" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-43" value="UC0 - Bootloader Provisioning&lt;div&gt;Scenario 3: Bootloader flash unsuccesful&amp;nbsp;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="50" y="2310" width="180" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-44" value="CyberRock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="250" y="2400" width="20" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-45" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-44">
+          <mxGeometry x="5" y="410" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-46" value="Microcontroller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="390" y="2400" width="20" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-47" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-46">
+          <mxGeometry x="5" y="280" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-48" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="10" y="2490" width="650" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-49" value="SandGrain IC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="480" y="2400" width="20" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-50" value="Report Boot Error Logs" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1" target="zhGtLRuy-EGO6Gjfj_fP-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="2810" as="sourcePoint" />
+            <mxPoint x="250" y="2810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-51" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="85" y="2670" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-52" value="Boot Error" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1" target="zhGtLRuy-EGO6Gjfj_fP-42">
+          <mxGeometry x="0.3226" y="-6" width="80" relative="1" as="geometry">
+            <mxPoint x="399.5" y="2760" as="sourcePoint" />
+            <mxPoint x="230" y="2760" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-53" value="Same as UC0 Scenario 0 ..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="75" y="2560" width="520" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-54" value="Support" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="0.3226" y="-6" width="80" relative="1" as="geometry">
+            <mxPoint x="259.5" y="2850" as="sourcePoint" />
+            <mxPoint x="90" y="2850" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-55" value="System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="525" y="3150" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-56" value="Bootloader Deployment&lt;div&gt;Operator&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="152" y="3150" width="20" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-57" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-56">
+          <mxGeometry x="5" y="270" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-58" value="UC0 - Bootloader Provisioning&lt;div&gt;Scenario 4: Bootloader flash unsuccesful - responsability on the developer&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="45" y="3060" width="180" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-59" value="CyberRock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="245" y="3150" width="20" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-60" value="Microcontroller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="385" y="3150" width="20" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-61" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-60">
+          <mxGeometry x="5" y="280" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-62" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry y="3240" width="610" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-63" value="SandGrain IC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="475" y="3150" width="20" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-64" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1" source="zhGtLRuy-EGO6Gjfj_fP-57" target="zhGtLRuy-EGO6Gjfj_fP-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-65" value="Report Boot Error Logs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="zhGtLRuy-EGO6Gjfj_fP-64">
+          <mxGeometry x="-0.1538" relative="1" as="geometry">
+            <mxPoint x="-17" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-66" value="Boot Error" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1" target="zhGtLRuy-EGO6Gjfj_fP-56">
+          <mxGeometry x="0.3226" y="-6" width="80" relative="1" as="geometry">
+            <mxPoint x="394.5" y="3510" as="sourcePoint" />
+            <mxPoint x="225" y="3510" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-67" value="Same as UC0 Scenario 0 ..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="20" y="3310" width="570" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-68" value="***Bootloader&lt;div&gt;Engineer&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="25" y="3150" width="20" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-69" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-68">
+          <mxGeometry x="5" y="410" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-70" value="Succes" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1" source="zhGtLRuy-EGO6Gjfj_fP-10" target="zhGtLRuy-EGO6Gjfj_fP-5">
+          <mxGeometry x="0.3226" y="-6" width="80" relative="1" as="geometry">
+            <mxPoint x="415" y="790" as="sourcePoint" />
+            <mxPoint x="105" y="790" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-71" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="85" y="1150" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-72" value="Bootloader File" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="0.0881" y="-5" width="80" relative="1" as="geometry">
+            <mxPoint x="259.5" y="539.9999999999998" as="sourcePoint" />
+            <mxPoint x="95" y="539.9999999999998" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-73" value="Bootloader File" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=0.81;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1" source="zhGtLRuy-EGO6Gjfj_fP-5">
+          <mxGeometry x="-0.3359" width="80" relative="1" as="geometry">
+            <mxPoint x="105" y="630" as="sourcePoint" />
+            <mxPoint x="400" y="630" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-74" value="Getting the ID via SPI communication" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="-0.1528" width="80" relative="1" as="geometry">
+            <mxPoint x="95" y="1150" as="sourcePoint" />
+            <mxPoint x="484.5" y="1150" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-75" value="IC ID" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1" source="zhGtLRuy-EGO6Gjfj_fP-23" target="zhGtLRuy-EGO6Gjfj_fP-17">
+          <mxGeometry x="0.3226" y="-6" width="80" relative="1" as="geometry">
+            <mxPoint x="475" y="1220" as="sourcePoint" />
+            <mxPoint x="175" y="1220" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-76" value="Fix" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1" source="zhGtLRuy-EGO6Gjfj_fP-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="3610" as="sourcePoint" />
+            <mxPoint x="160" y="3595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-77" value="Same as UC0 Scenario 0 ..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="20" y="3640" width="570" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-78" value="chip ID, mc model" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=12;startSize=8;endSize=8;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-270" y="370" as="sourcePoint" />
+            <mxPoint x="-115" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-79" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="-80" y="350" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zhGtLRuy-EGO6Gjfj_fP-80" value="Not Avaiable" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="zhGtLRuy-EGO6Gjfj_fP-1">
+          <mxGeometry x="0.3226" y="-6" width="80" relative="1" as="geometry">
+            <mxPoint x="-140.5" y="420" as="sourcePoint" />
+            <mxPoint x="-310" y="420" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
