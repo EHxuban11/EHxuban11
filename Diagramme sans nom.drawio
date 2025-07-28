@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="Página-1" id="je93KmNB5l3ZLCml3RUP">
-    <mxGraphModel dx="2864" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5580" dy="2650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -222,16 +222,16 @@
           <mxGeometry x="525" y="3150" width="100" height="500" as="geometry" />
         </mxCell>
         <mxCell id="6XSviYjn-b1P8yI_QofI-99" value="Bootloader Deployment&lt;div&gt;Operator&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="114" y="3150" width="20" height="500" as="geometry" />
+          <mxGeometry x="152" y="3150" width="20" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-108" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="6XSviYjn-b1P8yI_QofI-99">
+          <mxGeometry x="5" y="270" width="10" height="140" as="geometry" />
         </mxCell>
         <mxCell id="6XSviYjn-b1P8yI_QofI-100" value="UC0 - Bootloader Provisioning&lt;div&gt;Scenario 4: Bootloader flash unsuccesful - responsability on the developer&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="45" y="3060" width="180" height="16" as="geometry" />
         </mxCell>
         <mxCell id="6XSviYjn-b1P8yI_QofI-101" value="CyberRock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="245" y="3150" width="20" height="500" as="geometry" />
-        </mxCell>
-        <mxCell id="6XSviYjn-b1P8yI_QofI-102" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="6XSviYjn-b1P8yI_QofI-101">
-          <mxGeometry x="5" y="410" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6XSviYjn-b1P8yI_QofI-103" value="Microcontroller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="385" y="3150" width="20" height="500" as="geometry" />
@@ -240,19 +240,18 @@
           <mxGeometry x="5" y="280" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6XSviYjn-b1P8yI_QofI-105" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="5" y="3240" width="650" height="460" as="geometry" />
+          <mxGeometry y="3240" width="610" height="610" as="geometry" />
         </mxCell>
         <mxCell id="6XSviYjn-b1P8yI_QofI-106" value="SandGrain IC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="475" y="3150" width="20" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="6XSviYjn-b1P8yI_QofI-107" value="Report Boot Error Logs" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="123" y="3560" as="sourcePoint" />
-            <mxPoint x="250" y="3560" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-122" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="6XSviYjn-b1P8yI_QofI-108" target="6XSviYjn-b1P8yI_QofI-113">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6XSviYjn-b1P8yI_QofI-108" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="118" y="3420" width="10" height="140" as="geometry" />
+        <mxCell id="6XSviYjn-b1P8yI_QofI-123" value="Report Boot Error Logs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="6XSviYjn-b1P8yI_QofI-122">
+          <mxGeometry x="-0.1538" relative="1" as="geometry">
+            <mxPoint x="-17" y="-20" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="6XSviYjn-b1P8yI_QofI-109" value="Boot Error" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" target="6XSviYjn-b1P8yI_QofI-99">
           <mxGeometry x="0.3226" y="-6" width="80" relative="1" as="geometry">
@@ -262,16 +261,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6XSviYjn-b1P8yI_QofI-110" value="Same as UC0 Scenario 0 ..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="3310" width="520" height="120" as="geometry" />
+          <mxGeometry x="20" y="3310" width="570" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6XSviYjn-b1P8yI_QofI-111" value="Support" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
-          <mxGeometry x="0.3226" y="-6" width="80" relative="1" as="geometry">
-            <mxPoint x="254.5" y="3600" as="sourcePoint" />
-            <mxPoint x="120" y="3600" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6XSviYjn-b1P8yI_QofI-112" value="CyberRock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+        <mxCell id="6XSviYjn-b1P8yI_QofI-112" value="***Bootloader&lt;div&gt;Engineer&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="25" y="3150" width="20" height="500" as="geometry" />
         </mxCell>
         <mxCell id="6XSviYjn-b1P8yI_QofI-113" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="6XSviYjn-b1P8yI_QofI-112">
@@ -314,6 +306,15 @@
             <mxPoint x="175" y="1220" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-126" value="Fix" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="6XSviYjn-b1P8yI_QofI-113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="3610" as="sourcePoint" />
+            <mxPoint x="160" y="3595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-143" value="Same as UC0 Scenario 0 ..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="3640" width="570" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
