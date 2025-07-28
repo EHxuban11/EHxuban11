@@ -130,6 +130,41 @@
         <mxCell id="6XSviYjn-b1P8yI_QofI-45" value="SandGrain IC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="480" y="1610" width="20" height="700" as="geometry" />
         </mxCell>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-58" value="chip ID, mc model" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-300" y="2000" as="sourcePoint" />
+            <mxPoint x="-145" y="2000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-59" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-110" y="1980" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-60" value="Bootloader File" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-292.5" y="2050" as="targetPoint" />
+            <mxPoint x="-137.5" y="2050" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-61" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="1" source="6XSviYjn-b1P8yI_QofI-50" target="6XSviYjn-b1P8yI_QofI-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="1769.41" as="sourcePoint" />
+            <mxPoint x="265" y="1769.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-64" value="mc model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="6XSviYjn-b1P8yI_QofI-61">
+          <mxGeometry x="-0.0846" y="-2" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-62" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="425" y="2050" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6XSviYjn-b1P8yI_QofI-63" value="Bootloader File" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="242.5" y="2120" as="targetPoint" />
+            <mxPoint x="397.5" y="2120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
