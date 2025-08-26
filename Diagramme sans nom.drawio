@@ -420,7 +420,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="UC2 - Over The Air Firmware Update" id="NFJuHKlaEzUnrAszNwtg">
-    <mxGraphModel dx="2492" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2786" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="G1atse0UwaO-1VChbAeu-0" />
         <mxCell id="G1atse0UwaO-1VChbAeu-1" parent="G1atse0UwaO-1VChbAeu-0" />
@@ -627,19 +627,19 @@
           <mxGeometry x="-720" y="1160" width="180" height="16" as="geometry" />
         </mxCell>
         <mxCell id="7EIUrohbqly2Ml7g8IN2-51" value="Firmware Deployment Operator" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="G1atse0UwaO-1VChbAeu-1">
-          <mxGeometry x="-650" y="1270" width="20" height="830" as="geometry" />
+          <mxGeometry x="-650" y="1270" width="20" height="460" as="geometry" />
         </mxCell>
         <mxCell id="7EIUrohbqly2Ml7g8IN2-79" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="7EIUrohbqly2Ml7g8IN2-51">
           <mxGeometry x="5" y="150" width="10" height="260" as="geometry" />
         </mxCell>
         <mxCell id="7EIUrohbqly2Ml7g8IN2-52" value="CyberRock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="G1atse0UwaO-1VChbAeu-1">
-          <mxGeometry x="-260" y="1270" width="20" height="830" as="geometry" />
+          <mxGeometry x="-260" y="1270" width="20" height="460" as="geometry" />
         </mxCell>
         <mxCell id="7EIUrohbqly2Ml7g8IN2-74" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="7EIUrohbqly2Ml7g8IN2-52">
           <mxGeometry x="5" y="220" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7EIUrohbqly2Ml7g8IN2-57" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="G1atse0UwaO-1VChbAeu-1">
-          <mxGeometry x="-720" y="1360" width="610" height="780" as="geometry" />
+          <mxGeometry x="-720" y="1360" width="610" height="390" as="geometry" />
         </mxCell>
         <mxCell id="7EIUrohbqly2Ml7g8IN2-60" value="Request status of a FW update" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="G1atse0UwaO-1VChbAeu-1">
           <mxGeometry relative="1" as="geometry">
@@ -648,7 +648,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7EIUrohbqly2Ml7g8IN2-61" value="Client Backend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="G1atse0UwaO-1VChbAeu-1">
-          <mxGeometry x="-460" y="1270" width="20" height="830" as="geometry" />
+          <mxGeometry x="-460" y="1270" width="20" height="460" as="geometry" />
         </mxCell>
         <mxCell id="7EIUrohbqly2Ml7g8IN2-73" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="7EIUrohbqly2Ml7g8IN2-61">
           <mxGeometry x="5" y="150" width="10" height="230" as="geometry" />
