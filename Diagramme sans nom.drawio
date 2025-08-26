@@ -623,7 +623,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7EIUrohbqly2Ml7g8IN2-48" value="UC2 - Check Over The Air Firmware Update Status&lt;div&gt;Scenario 0 - normal over the air update without problems&amp;nbsp;&lt;/div&gt;" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="G1atse0UwaO-1VChbAeu-1">
+        <mxCell id="7EIUrohbqly2Ml7g8IN2-48" value="UC2 - Check Over The Air Firmware Update Status&lt;div&gt;Scenario 1 - Request status of the FW update&amp;nbsp;&lt;/div&gt;" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="G1atse0UwaO-1VChbAeu-1">
           <mxGeometry x="-720" y="1160" width="180" height="16" as="geometry" />
         </mxCell>
         <mxCell id="7EIUrohbqly2Ml7g8IN2-51" value="Firmware Deployment Operator" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="G1atse0UwaO-1VChbAeu-1">
