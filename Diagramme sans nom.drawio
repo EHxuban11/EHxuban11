@@ -511,7 +511,7 @@
           <mxGeometry x="-38" y="170" width="100" height="830" as="geometry" />
         </mxCell>
         <mxCell id="7EIUrohbqly2Ml7g8IN2-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="7EIUrohbqly2Ml7g8IN2-0">
-          <mxGeometry x="45" y="335" width="10" height="415" as="geometry" />
+          <mxGeometry x="45" y="335" width="10" height="345" as="geometry" />
         </mxCell>
         <mxCell id="7EIUrohbqly2Ml7g8IN2-1" value="Firmware Deployment Operator" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="G1atse0UwaO-1VChbAeu-1">
           <mxGeometry x="-650" y="170" width="20" height="830" as="geometry" />
@@ -522,6 +522,9 @@
         <mxCell id="7EIUrohbqly2Ml7g8IN2-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="7EIUrohbqly2Ml7g8IN2-3">
           <mxGeometry x="5" y="250" width="10" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="7EIUrohbqly2Ml7g8IN2-40" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="7EIUrohbqly2Ml7g8IN2-3">
+          <mxGeometry x="5" y="690" width="10" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="7EIUrohbqly2Ml7g8IN2-5" value="Microcontroller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="G1atse0UwaO-1VChbAeu-1">
           <mxGeometry x="-216" y="170" width="20" height="830" as="geometry" />
         </mxCell>
@@ -529,16 +532,13 @@
           <mxGeometry x="5" y="500" width="10" height="100" as="geometry" />
         </mxCell>
         <mxCell id="7EIUrohbqly2Ml7g8IN2-7" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="G1atse0UwaO-1VChbAeu-1">
-          <mxGeometry x="-720" y="260" width="450" height="770" as="geometry" />
+          <mxGeometry x="-720" y="260" width="790" height="780" as="geometry" />
         </mxCell>
         <mxCell id="7EIUrohbqly2Ml7g8IN2-9" value="SandGrain IC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="G1atse0UwaO-1VChbAeu-1">
           <mxGeometry x="-126" y="170" width="20" height="830" as="geometry" />
         </mxCell>
         <mxCell id="7EIUrohbqly2Ml7g8IN2-30" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="7EIUrohbqly2Ml7g8IN2-9">
           <mxGeometry x="5" y="390" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="7EIUrohbqly2Ml7g8IN2-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="G1atse0UwaO-1VChbAeu-1">
-          <mxGeometry x="-645" y="320" width="10" height="290" as="geometry" />
         </mxCell>
         <mxCell id="7EIUrohbqly2Ml7g8IN2-19" value="Request FW update" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="G1atse0UwaO-1VChbAeu-1" target="7EIUrohbqly2Ml7g8IN2-21">
           <mxGeometry relative="1" as="geometry">
@@ -558,6 +558,9 @@
         <mxCell id="7EIUrohbqly2Ml7g8IN2-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="7EIUrohbqly2Ml7g8IN2-21">
           <mxGeometry x="5" y="160" width="10" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="7EIUrohbqly2Ml7g8IN2-45" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="7EIUrohbqly2Ml7g8IN2-21">
+          <mxGeometry x="5" y="770" width="10" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="7EIUrohbqly2Ml7g8IN2-24" value="Request FW update" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="G1atse0UwaO-1VChbAeu-1" target="7EIUrohbqly2Ml7g8IN2-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-449" y="420" as="sourcePoint" />
@@ -573,8 +576,8 @@
         </mxCell>
         <mxCell id="7EIUrohbqly2Ml7g8IN2-27" value="Verify FW" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="G1atse0UwaO-1VChbAeu-1">
           <mxGeometry x="-0.0005" relative="1" as="geometry">
-            <mxPoint x="80" y="740" as="sourcePoint" />
-            <mxPoint x="287.49999999999955" y="739.9999999999998" as="targetPoint" />
+            <mxPoint x="290" y="720" as="sourcePoint" />
+            <mxPoint x="497.49999999999955" y="719.9999999999998" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -603,6 +606,74 @@
           <mxGeometry x="-0.1435" width="80" relative="1" as="geometry">
             <mxPoint x="-201" y="770" as="sourcePoint" />
             <mxPoint x="11.5" y="770" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7EIUrohbqly2Ml7g8IN2-38" value="Install status" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="G1atse0UwaO-1VChbAeu-1">
+          <mxGeometry y="-5" width="80" relative="1" as="geometry">
+            <mxPoint x="7.43" y="850" as="sourcePoint" />
+            <mxPoint x="-339.99857142857155" y="850" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7EIUrohbqly2Ml7g8IN2-41" value="Install status" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="G1atse0UwaO-1VChbAeu-1">
+          <mxGeometry y="-5" width="80" relative="1" as="geometry">
+            <mxPoint x="-332.57142857142844" y="920" as="sourcePoint" />
+            <mxPoint x="-450.92857142857156" y="920.0000000000002" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7EIUrohbqly2Ml7g8IN2-48" value="UC2 - Check Over The Air Firmware Update Status&lt;div&gt;Scenario 0 - normal over the air update without problems&amp;nbsp;&lt;/div&gt;" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="G1atse0UwaO-1VChbAeu-1">
+          <mxGeometry x="-720" y="1160" width="180" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="7EIUrohbqly2Ml7g8IN2-51" value="Firmware Deployment Operator" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="G1atse0UwaO-1VChbAeu-1">
+          <mxGeometry x="-650" y="1270" width="20" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="7EIUrohbqly2Ml7g8IN2-79" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="7EIUrohbqly2Ml7g8IN2-51">
+          <mxGeometry x="5" y="150" width="10" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="7EIUrohbqly2Ml7g8IN2-52" value="CyberRock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="G1atse0UwaO-1VChbAeu-1">
+          <mxGeometry x="-260" y="1270" width="20" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="7EIUrohbqly2Ml7g8IN2-74" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="7EIUrohbqly2Ml7g8IN2-52">
+          <mxGeometry x="5" y="220" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7EIUrohbqly2Ml7g8IN2-57" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="G1atse0UwaO-1VChbAeu-1">
+          <mxGeometry x="-720" y="1360" width="610" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="7EIUrohbqly2Ml7g8IN2-60" value="Request status of a FW update" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="G1atse0UwaO-1VChbAeu-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-640.3333333333333" y="1420" as="sourcePoint" />
+            <mxPoint x="-450.4999999999998" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7EIUrohbqly2Ml7g8IN2-61" value="Client Backend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="G1atse0UwaO-1VChbAeu-1">
+          <mxGeometry x="-460" y="1270" width="20" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="7EIUrohbqly2Ml7g8IN2-73" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="7EIUrohbqly2Ml7g8IN2-61">
+          <mxGeometry x="5" y="150" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="7EIUrohbqly2Ml7g8IN2-72" value="Request status of a FW update" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="G1atse0UwaO-1VChbAeu-1" target="7EIUrohbqly2Ml7g8IN2-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-440" y="1490" as="sourcePoint" />
+            <mxPoint x="-330" y="1490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-320" y="1490" />
+              <mxPoint x="-300" y="1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7EIUrohbqly2Ml7g8IN2-76" value="Status" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="G1atse0UwaO-1VChbAeu-1" target="7EIUrohbqly2Ml7g8IN2-73">
+          <mxGeometry y="-5" width="80" relative="1" as="geometry">
+            <mxPoint x="-245" y="1560" as="sourcePoint" />
+            <mxPoint x="-440" y="1560" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7EIUrohbqly2Ml7g8IN2-77" value="Status" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="G1atse0UwaO-1VChbAeu-1">
+          <mxGeometry y="-5" width="80" relative="1" as="geometry">
+            <mxPoint x="-440" y="1650" as="sourcePoint" />
+            <mxPoint x="-640" y="1650" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
