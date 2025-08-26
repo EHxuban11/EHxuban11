@@ -420,7 +420,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="UC2 - Over The Air Firmware Update" id="NFJuHKlaEzUnrAszNwtg">
-    <mxGraphModel dx="2786" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3206" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="G1atse0UwaO-1VChbAeu-0" />
         <mxCell id="G1atse0UwaO-1VChbAeu-1" parent="G1atse0UwaO-1VChbAeu-0" />
@@ -710,12 +710,21 @@
     </mxGraphModel>
   </diagram>
   <diagram name="UC3 - In-field Firmware Update" id="WtdJmd5VncuMbfrjXviy">
-    <mxGraphModel dx="1388" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="586" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="jv8rS5JcA7HN5evZzH7V-0" />
         <mxCell id="jv8rS5JcA7HN5evZzH7V-1" parent="jv8rS5JcA7HN5evZzH7V-0" />
         <mxCell id="jv8rS5JcA7HN5evZzH7V-6" value="&lt;div&gt;UC3 - In-field Firmware Update&amp;nbsp;&lt;/div&gt;&lt;div&gt;Scenario 0 - normal update&amp;nbsp;&lt;/div&gt;" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="jv8rS5JcA7HN5evZzH7V-1" vertex="1">
           <mxGeometry x="30" y="50" width="180" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="0F7nUPemD3pKyu24b-Fi-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jv8rS5JcA7HN5evZzH7V-1">
+          <mxGeometry x="90" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0F7nUPemD3pKyu24b-Fi-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jv8rS5JcA7HN5evZzH7V-1" source="0F7nUPemD3pKyu24b-Fi-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="270" as="sourcePoint" />
+            <mxPoint x="150" y="230" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
