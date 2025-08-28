@@ -927,30 +927,27 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d7K_wn9QCMWz7xwvglGs" name="Other">
-    <mxGraphModel dx="1959" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="555" dy="259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="f1p5-Ilph7jEDLUPbUIR-2" value="Device Management Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="330" y="175" width="20" height="990" as="geometry" />
+        <mxCell id="f1p5-Ilph7jEDLUPbUIR-2" value="Device Management Server AND Cyberock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="200" y="160" width="20" height="990" as="geometry" />
         </mxCell>
         <mxCell id="f1p5-Ilph7jEDLUPbUIR-3" value="Microcontroller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="150" y="175" width="20" height="990" as="geometry" />
+          <mxGeometry x="460" y="160" width="20" height="990" as="geometry" />
         </mxCell>
-        <mxCell id="f1p5-Ilph7jEDLUPbUIR-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="f1p5-Ilph7jEDLUPbUIR-3" vertex="1">
-          <mxGeometry x="5" y="145" width="10" height="95" as="geometry" />
+        <mxCell id="f1p5-Ilph7jEDLUPbUIR-8" value="Boot" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="f1p5-Ilph7jEDLUPbUIR-3" vertex="1">
+          <mxGeometry x="5" y="140" width="10" height="35" as="geometry" />
         </mxCell>
         <mxCell id="f1p5-Ilph7jEDLUPbUIR-4" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="225" width="1040" height="955" as="geometry" />
         </mxCell>
         <mxCell id="f1p5-Ilph7jEDLUPbUIR-5" value="SandGrain IC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="510" y="179" width="20" height="990" as="geometry" />
+          <mxGeometry x="730" y="160" width="20" height="990" as="geometry" />
         </mxCell>
-        <mxCell id="f1p5-Ilph7jEDLUPbUIR-7" value="CyberRock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="680" y="175" width="20" height="990" as="geometry" />
-        </mxCell>
-        <mxCell id="EyV7NoeyK9Fy03gOPVif-1" value="CyberRock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="807" y="175" width="20" height="990" as="geometry" />
+        <mxCell id="EyV7NoeyK9Fy03gOPVif-2" value="Boot" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="f1p5-Ilph7jEDLUPbUIR-5">
+          <mxGeometry x="5" y="140" width="10" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
