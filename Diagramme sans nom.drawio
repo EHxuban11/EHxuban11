@@ -927,7 +927,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d7K_wn9QCMWz7xwvglGs" name="Other">
-    <mxGraphModel dx="1388" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -937,7 +937,7 @@
         <mxCell id="f1p5-Ilph7jEDLUPbUIR-3" value="Microcontroller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="460" y="160" width="20" height="990" as="geometry" />
         </mxCell>
-        <mxCell id="f1p5-Ilph7jEDLUPbUIR-8" value="Arbitrary Bootloader sequence" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="f1p5-Ilph7jEDLUPbUIR-3" vertex="1">
+        <mxCell id="f1p5-Ilph7jEDLUPbUIR-8" value="Arbitrary Boot&amp;nbsp; S&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;equence&lt;/span&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="f1p5-Ilph7jEDLUPbUIR-3" vertex="1">
           <mxGeometry x="5" y="130" width="10" height="520" as="geometry" />
         </mxCell>
         <mxCell id="f1p5-Ilph7jEDLUPbUIR-4" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
@@ -955,7 +955,7 @@
             <mxPoint x="360" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EyV7NoeyK9Fy03gOPVif-4" value="BOOT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EyV7NoeyK9Fy03gOPVif-3">
+        <mxCell id="EyV7NoeyK9Fy03gOPVif-4" value="BOOTLOADER" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EyV7NoeyK9Fy03gOPVif-3">
           <mxGeometry x="-0.1026" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -975,19 +975,16 @@
           <mxGeometry x="590" y="160" width="20" height="990" as="geometry" />
         </mxCell>
         <mxCell id="EyV7NoeyK9Fy03gOPVif-10" value="afasfaf" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="EyV7NoeyK9Fy03gOPVif-7">
-          <mxGeometry x="5" y="280" width="10" height="35" as="geometry" />
+          <mxGeometry x="5" y="230" width="10" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="EyV7NoeyK9Fy03gOPVif-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="EyV7NoeyK9Fy03gOPVif-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="EyV7NoeyK9Fy03gOPVif-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="475" y="390" as="sourcePoint" />
             <mxPoint x="640" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EyV7NoeyK9Fy03gOPVif-11" value="SPI Communication" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="710" y="160" width="20" height="990" as="geometry" />
-        </mxCell>
-        <mxCell id="EyV7NoeyK9Fy03gOPVif-12" value="afasfaf" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="EyV7NoeyK9Fy03gOPVif-11">
-          <mxGeometry x="5" y="280" width="10" height="35" as="geometry" />
+        <mxCell id="EyV7NoeyK9Fy03gOPVif-15" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Etapas que debo añadir explicitamente&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1) Mirar el CW&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2) Usar el CW como sea &quot;de manera universal&quot;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3) Especificar sequencia de secure boot&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="950" y="240" width="330" height="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
