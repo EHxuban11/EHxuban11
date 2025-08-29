@@ -927,7 +927,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d7K_wn9QCMWz7xwvglGs" name="Other">
-    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1959" dy="2123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -941,7 +941,7 @@
           <mxGeometry x="5" y="130" width="10" height="520" as="geometry" />
         </mxCell>
         <mxCell id="W5oZ9qtmSuweWJPZRIHv-2" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Hashing step&lt;/font&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="f1p5-Ilph7jEDLUPbUIR-3">
-          <mxGeometry x="5" y="425" width="10" height="100" as="geometry" />
+          <mxGeometry x="5" y="410" width="10" height="115" as="geometry" />
         </mxCell>
         <mxCell id="f1p5-Ilph7jEDLUPbUIR-4" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="225" width="1040" height="955" as="geometry" />
@@ -987,10 +987,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EyV7NoeyK9Fy03gOPVif-15" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Etapas que debo añadir explicitamente en el diagrama final&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1) Mirar el CW&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2) Usar el CW como sea &quot;de manera universal&quot;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3) Especificar sequencia de secure boot&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;de manera universal&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4) Escribir resultados de este check en la RAM&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5) Hacer el Measured Boot&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;6) (...) Mirar requisitos&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Etapas que voy a añadir ahora mismo:&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;Usar el CW&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="950" y="240" width="330" height="330" as="geometry" />
+          <mxGeometry x="1100" y="-60" width="330" height="330" as="geometry" />
         </mxCell>
         <mxCell id="W5oZ9qtmSuweWJPZRIHv-1" value="&lt;div&gt;UCX - Boot Sequence&amp;nbsp;&lt;/div&gt;&lt;div&gt;Scenario 0 - CW usage&amp;nbsp;&lt;/div&gt;" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="50" width="180" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="maQNWDScx8PKZibmQhCs-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;Ocurrencia: Y si en vez de guardar CW en memoria, podemos generar nuevos.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="800" y="240" width="330" height="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
