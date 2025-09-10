@@ -1065,7 +1065,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Constrained design" id="X3lSe70q9_BDHItK0U6F">
-    <mxGraphModel dx="1563" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1061" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1081,17 +1081,6 @@
         <mxCell id="SEUFgZcYbESOwV6XuH5c-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="SEUFgZcYbESOwV6XuH5c-2" vertex="1">
           <mxGeometry x="5" y="160" width="10" height="990" as="geometry" />
         </mxCell>
-        <mxCell id="BhZA9AHIXrLH-FOHMwq4-1" value="Initialize basic drivers (flash, watchdog handling) and read the flash partition map" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" parent="SEUFgZcYbESOwV6XuH5c-2" edge="1">
-          <mxGeometry x="-0.0003" y="14" relative="1" as="geometry">
-            <mxPoint x="13" y="170" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="43" y="170" />
-              <mxPoint x="43" y="230" />
-            </Array>
-            <mxPoint x="13" y="230" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="SEUFgZcYbESOwV6XuH5c-4" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="1410" width="931" height="1290" as="geometry" />
         </mxCell>
@@ -1099,7 +1088,7 @@
           <mxGeometry x="861" y="1330" width="20" height="910" as="geometry" />
         </mxCell>
         <mxCell id="SEUFgZcYbESOwV6XuH5c-6" value="Arbitrary Boot&amp;nbsp; S&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;equence&lt;/span&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="SEUFgZcYbESOwV6XuH5c-5" vertex="1">
-          <mxGeometry x="5" y="230" width="10" height="80" as="geometry" />
+          <mxGeometry x="5" y="660" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SEUFgZcYbESOwV6XuH5c-7" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1251,10 +1240,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HGRdcU2InE5vwwCvJJko-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;Durante el secure boot normal, la placa se enciende y hace los pasos habituales como checkear el fw. se asume que el bootloader es el root of trust. Definimos un flujo de arranque tipo MCU boot junto con las especifidades de usar el chip de SandGrain.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;TEMPORAL: pongamos que tenemos 10 microcontroladores con el mismo bootloader (MCUboot) y el mismo fw firmado. Si yo teniendo acceso físico flasheo otro sistema, pues he vulnerado la seguirdad. Pero el server lo sabría porque mi código no se conecta al server.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Si mi código malicioso sí que se conecta al server y manda los RW correctos, tampoco se daría cuenta.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Si me piden un boot attestaion y no lo puedo dar sí que el server se daría cuenta.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Si grabo una secuencia de boot y su digest correspondiente y hago un replay attack, el servidor no se daría cuenta.&amp;nbsp; Pero sería inpráctico ya que tendría que hacer un replay attack custom para cada placa. Desde el punto de vista del cliente gestiona un desarrollo y una clave únicamente.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Vale&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="190" y="739" width="430" height="430" as="geometry" />
+        <mxCell id="HGRdcU2InE5vwwCvJJko-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;Durante el secure boot normal, la placa se enciende y hace los pasos habituales como checkear el fw. se asume que el bootloader es el root of trust. Definimos un flujo de arranque tipo MCU boot junto con las especifidades de usar el chip de SandGrain.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;TEMPORAL: pongamos que tenemos 10 microcontroladores con el mismo bootloader (MCUboot) y el mismo fw firmado. Si yo teniendo acceso físico flasheo otro sistema, pues he vulnerado la seguirdad. Pero el server lo sabría porque mi código no se conecta al server.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Si mi código malicioso sí que se conecta al server y manda los RW correctos, tampoco se daría cuenta.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Si me piden un boot attestaion y no lo puedo dar sí que el server se daría cuenta.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Si grabo una secuencia de boot y su digest correspondiente y hago un replay attack, el servidor no se daría cuenta.&amp;nbsp; Pero sería inpráctico ya que tendría que hacer un replay attack custom para cada placa. Desde el punto de vista del cliente gestiona un desarrollo y una clave únicamente.&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="180" y="739" width="430" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="HGRdcU2InE5vwwCvJJko-3" value="Find the candidate images. Decide if an upgrade should happen." style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+        <mxCell id="HGRdcU2InE5vwwCvJJko-3" value="Find the candidate images. Decide if an upgrade should happen." style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" parent="1" edge="1">
           <mxGeometry x="-0.0003" y="14" relative="1" as="geometry">
             <mxPoint x="279.95" y="1590" as="sourcePoint" />
             <Array as="points">
@@ -1265,7 +1254,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HGRdcU2InE5vwwCvJJko-4" value="Compute image hash" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+        <mxCell id="HGRdcU2InE5vwwCvJJko-4" value="Compute image hash" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" parent="1" edge="1">
           <mxGeometry x="-0.0003" y="14" relative="1" as="geometry">
             <mxPoint x="280" y="1700" as="sourcePoint" />
             <Array as="points">
@@ -1276,7 +1265,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HGRdcU2InE5vwwCvJJko-5" value="Parse the TLV area to locate the signature TLV" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+        <mxCell id="HGRdcU2InE5vwwCvJJko-5" value="Parse the TLV area to locate the signature TLV" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" parent="1" edge="1">
           <mxGeometry x="-0.0003" y="14" relative="1" as="geometry">
             <mxPoint x="280" y="1770" as="sourcePoint" />
             <Array as="points">
@@ -1287,7 +1276,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HGRdcU2InE5vwwCvJJko-7" value="Verify the signature using one of the public keys compiled into MCUboot" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+        <mxCell id="HGRdcU2InE5vwwCvJJko-7" value="Verify the signature using one of the public keys compiled into MCUboot" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" parent="1" edge="1">
           <mxGeometry x="-0.0003" y="14" relative="1" as="geometry">
             <mxPoint x="280" y="1840" as="sourcePoint" />
             <Array as="points">
@@ -1298,18 +1287,18 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HGRdcU2InE5vwwCvJJko-9" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.075;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="HGRdcU2InE5vwwCvJJko-9" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.075;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="219" y="2040" as="sourcePoint" />
             <mxPoint x="219.475" y="1690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HGRdcU2InE5vwwCvJJko-10" value="Secure boot" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HGRdcU2InE5vwwCvJJko-9">
+        <mxCell id="HGRdcU2InE5vwwCvJJko-10" value="Secure boot" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HGRdcU2InE5vwwCvJJko-9" vertex="1" connectable="0">
           <mxGeometry x="0.1433" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HGRdcU2InE5vwwCvJJko-11" value="Set the vector table, de -initialize what it must, jumpt to the app&#39;s reset handler in the primary slot" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+        <mxCell id="HGRdcU2InE5vwwCvJJko-11" value="Set the vector table, de -initialize what it must, jumpt to the app&#39;s reset handler in the primary slot" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" parent="1" edge="1">
           <mxGeometry x="-0.0003" y="14" relative="1" as="geometry">
             <mxPoint x="280" y="2200" as="sourcePoint" />
             <Array as="points">
@@ -1318,6 +1307,50 @@
             </Array>
             <mxPoint x="270.05" y="2260" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7McJBytim4Bc-zAStKco-1" value="Calculate CW&#39; -&amp;gt; hash&amp;nbsp;⊕ CW&amp;nbsp;&amp;nbsp;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry x="-0.0003" y="14" relative="1" as="geometry">
+            <mxPoint x="280.02" y="1910" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="310.02" y="1910" />
+              <mxPoint x="310.02" y="1970" />
+            </Array>
+            <mxPoint x="270.07" y="1970" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BhZA9AHIXrLH-FOHMwq4-1" value="Initialize basic drivers (flash, watchdog handling) and read the flash partition map" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;" parent="1" edge="1">
+          <mxGeometry x="-0.0003" y="14" relative="1" as="geometry">
+            <mxPoint x="281" y="1500" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="310" y="1500" />
+              <mxPoint x="310" y="1560" />
+            </Array>
+            <mxPoint x="281" y="1560" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7McJBytim4Bc-zAStKco-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="SEUFgZcYbESOwV6XuH5c-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="276" y="1990" as="sourcePoint" />
+            <mxPoint x="551" y="1990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7McJBytim4Bc-zAStKco-4" value="Send CW&#39; via SPI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7McJBytim4Bc-zAStKco-3">
+          <mxGeometry x="-0.3507" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7McJBytim4Bc-zAStKco-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="SEUFgZcYbESOwV6XuH5c-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="2070" as="sourcePoint" />
+            <mxPoint x="1245" y="2070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7McJBytim4Bc-zAStKco-6" value="RW&#39;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7McJBytim4Bc-zAStKco-5">
+          <mxGeometry x="-0.3507" y="-1" relative="1" as="geometry">
+            <mxPoint x="-207" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
