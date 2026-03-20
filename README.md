@@ -1,13 +1,18 @@
-<div align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Flag_of_the_Basque_Country.svg/300px-Flag_of_the_Basque_Country.svg.png" align="center" style="width: 5%" />
-</div>  
-<div align="center">I'm <b>Xuban</b>, an engineer </div>  
-  
+<h1 align="center">Xuban</h1>
 
-- 📚 My main focused currently is learning
-      
+<p align="center">
+  Engineer @ <b>Multiverse Computing</b> | Basque Country<br/>
+  <a href="https://www.linkedin.com/in/xuban-ceccon/">LinkedIn</a> · <a href="https://x.com/EHxuban11">X/Twitter</a>
+</p>
 
-<br/>  
+---
 
+### LibreYOLO
 
+Creator of [**LibreYOLO**](https://github.com/LibreYOLO), a MIT-licensed open source computer vision library in Python.
 
+<p align="center">
+  <a href="https://github.com/LibreYOLO/libreyolo">
+    <img src="https://img.shields.io/github/stars/LibreYOLO/libreyolo?style=for-the-badge&logo=github&label=libreyolo&color=gold" alt="LibreYOLO stars" />
+  </a>
+</p>
