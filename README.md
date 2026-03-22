@@ -24,16 +24,10 @@ Creator of [**LibreYOLO**](https://github.com/LibreYOLO), a MIT-licensed open so
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LibreYOLO LinkedIn" />
   </a>
   <a href="https://github.com/LibreYOLO/libreyolo">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="LibreYOLO GitHub" />
+    <img src="https://img.shields.io/github/stars/LibreYOLO/libreyolo?style=for-the-badge&logo=github&label=libreyolo&color=gold" alt="LibreYOLO stars" />
   </a>
   <a href="https://www.libreyolo.com/">
     <img src="https://img.shields.io/badge/Website-FF7139?style=for-the-badge&logo=firefox-browser&logoColor=white" alt="LibreYOLO Website" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/LibreYOLO/libreyolo">
-    <img src="https://img.shields.io/github/stars/LibreYOLO/libreyolo?style=for-the-badge&logo=github&label=libreyolo&color=gold" alt="LibreYOLO stars" />
   </a>
 </p>
 
