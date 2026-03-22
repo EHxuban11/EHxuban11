@@ -16,3 +16,7 @@ Creator of [**LibreYOLO**](https://github.com/LibreYOLO), a MIT-licensed open so
     <img src="https://img.shields.io/github/stars/LibreYOLO/libreyolo?style=for-the-badge&logo=github&label=libreyolo&color=gold" alt="LibreYOLO stars" />
   </a>
 </p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LibreYOLO/libreyolo/main/libreyolo/assets/parkour_result.jpg" alt="LibreYOLO detection example" width="600" />
+</p>
