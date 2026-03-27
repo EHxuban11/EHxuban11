@@ -1,6 +1,5 @@
 <h1 align="center">
-  <img src="profile.jpg" alt="Xuban" width="100" style="border-radius: 50%;" />
-  <br/>
+  <img src="ikurrina.png" alt="Ikurriña" width="32" />
   Xuban
 </h1>
 
