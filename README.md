@@ -23,7 +23,7 @@
 
 ### LibreYOLO
 
-Creator of [**LibreYOLO**](https://github.com/LibreYOLO), a MIT-licensed open source computer vision library in Python.
+Creator of [**LibreYOLO**](https://github.com/LibreYOLO/libreyolo), a MIT-licensed open source computer vision library in Python.
 
 <p align="center">
   <a href="https://www.linkedin.com/company/110443296/">
@@ -47,7 +47,7 @@ Creator of [**LibreYOLO**](https://github.com/LibreYOLO), a MIT-licensed open so
 
 - [**Ekitaldi**](https://www.ekitaldi.org/): Pixieset alternative
 - [**Jauzi**](https://jauzi.org): Link manager
-- [**Entzun**](https://entzun.org): Feedback collection and feature voting for SaaS
-- [**Esteka**](https://www.esteka.org/): Linktree alternative
-- [**Zainzain**](https://zainzain.org/): Waitlists for your projects
-- [**DNS Propagation Map**](https://dnspropagationvisualizer.vercel.app/): Real-time DNS propagation visualizer
+<!-- - [**Entzun**](https://entzun.org): Feedback collection and feature voting for SaaS -->
+<!-- - [**Esteka**](https://www.esteka.org/): Linktree alternative -->
+<!-- - [**Zainzain**](https://zainzain.org/): Waitlists for your projects -->
+<!-- - [**DNS Propagation Map**](https://dnspropagationvisualizer.vercel.app/): Real-time DNS propagation visualizer -->
