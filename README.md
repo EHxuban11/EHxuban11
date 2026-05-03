@@ -17,6 +17,9 @@
   <a href="https://x.com/EHxuban11">
     <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X/Twitter" />
   </a>
+  <a href="https://xubanceccon.substack.com/">
+    <img src="https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white" alt="Substack" />
+  </a>
 </p>
 
 ---
