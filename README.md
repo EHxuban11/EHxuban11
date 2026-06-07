@@ -41,7 +41,7 @@ Creator of [**LibreYOLO**](https://github.com/LibreYOLO/libreyolo), a MIT-licens
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LibreYOLO/libreyolo/main/libreyolo/assets/parkour_result.jpg" alt="LibreYOLO detection example" width="600" />
+  <img src="https://raw.githubusercontent.com/LibreYOLO/libreyolo/release/libreyolo/assets/parkour_result.jpg" alt="LibreYOLO detection example" width="600" />
 </p>
 
 ---
